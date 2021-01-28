@@ -8,3 +8,4 @@ def fatorial(x):
 
 
 print(fatorial(4))
+for i in range(5): print(fatorial(i))
