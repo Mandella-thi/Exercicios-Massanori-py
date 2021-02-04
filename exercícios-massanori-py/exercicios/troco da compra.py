@@ -76,3 +76,13 @@ elif troco >= 10:
                 print(f'notas de 1 são {notas1}')
             else:
                 print("não tem notas de 1")
+elif 10>troco >= 5:
+    notas5 = troco / 10
+    resto5 = troco % 10
+    print(f"notas de 5 são {notas5}")
+    if resto5 >= 1:
+            notas1 = resto5 / 1
+            print(f'Notas de 1 são: {notas1}')
+elif 5>troco >= 1:
+    notas1 = troco / 1
+    print(f"notas de 10 são {notas1}")
