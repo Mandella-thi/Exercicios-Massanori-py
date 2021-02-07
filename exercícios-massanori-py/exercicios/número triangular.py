@@ -1,4 +1,5 @@
 num= int(input("Digite o número"))
 x=1
-if num % x==0 and num % (x+1)==0 and num% (x+2)==0:
-    print("o número {num} é triangular")
+while x*(x+1)* (x+2) < num:
+    x=x+1
+print(x*(x+1) *(x+2)==num)
